@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <!-- Квадрат със син контур -->
+    <View
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        android:foreground="@drawable/square_border"
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:outlineProvider="background"
+        android:outlineSpotShadowColor="@android:color/transparent" />
+
+</RelativeLayout>
